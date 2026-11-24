@@ -1,0 +1,14 @@
+**Task**: Determine if the image is a formal exam, test, or quiz.
+ 
+**`true` if document has features of a formal assessment**:
+- Title like "Exam", "Test", "Quiz" (any language).
+- Numbered questions.
+- Fields for Name, Score, Date, or Time Limit.
+ 
+**`false` if document is for learning/practice**:
+- Textbook page, homework, lecture notes.
+
+**Output**: A schema format:
+{
+    "result": bool
+}

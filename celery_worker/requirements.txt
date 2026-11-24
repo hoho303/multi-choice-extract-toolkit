@@ -1,0 +1,33 @@
+redis
+pandas
+openpyxl
+uvicorn
+fastapi
+SQLAlchemy
+pydantic
+pydantic-settings
+python-multipart
+loguru
+pillow
+pymupdf
+jinja2
+selenium
+webdriver-manager
+beautifulsoup4
+lxml
+
+openai
+google-genai
+httpx
+aiohttp
+requests
+sqlalchemy
+psycopg2-binary
+
+# Prometheus monitoring
+prometheus-client
+prometheus-fastapi-instrumentator
+
+# Celery
+Celery
+celery[librabbitmq,redis,auth,msgpack]
